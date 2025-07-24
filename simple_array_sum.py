@@ -6,8 +6,8 @@ ar = [1,2,3,4,10,11]
 def simpleArraySum(ar):
     count = 0
 
-    for i in ar:
-        count += i
+    for number in ar:
+        count += number
     
     return count
 

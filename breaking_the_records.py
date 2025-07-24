@@ -7,14 +7,14 @@ def breakingRecords(scores):
     min_count = 0
     max_count = 0
 
-    for i in scores[1:]:
+    for score in scores[1:]:
         
-        if i < min_score:
-            min_score = i
+        if score < min_score:
+            min_score = score
             min_count += 1
             print(min_count)
-        elif i > max_score:
-            max_score = i
+        elif score > max_score:
+            max_score = score
             max_count += 1
             print(max_count)
         

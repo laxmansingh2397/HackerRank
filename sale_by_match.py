@@ -6,8 +6,8 @@ def sockMerchant(n, ar):
     count = 0
     arr_set = set(ar)
 
-    for i in arr_set:
-        number = ar.count(i)
+    for sale in arr_set:
+        number = ar.count(sale)
         number = number // 2
         count += number
     return count
