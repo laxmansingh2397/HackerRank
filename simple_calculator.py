@@ -1,0 +1,18 @@
+num1 = int(input("Enter first number: "))
+operator = input("Enter Operator(+,-,*,/): ")
+num2 = int(input("Enter seciond number: "))
+
+
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print(num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    if num2 == 0:
+        print("Error Division by Zero")
+    else:
+        print(num1 / num2)
+else:
+    print("Not a valid operator")
