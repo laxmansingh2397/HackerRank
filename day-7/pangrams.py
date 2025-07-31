@@ -1,5 +1,4 @@
 
-
 def pangrams(s):
     new_s = "".join(s.lower().split())
     set_s = set(new_s)
