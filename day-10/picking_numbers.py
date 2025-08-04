@@ -8,16 +8,14 @@ def pickingNumbers(a):
 
     for i in range(len(a)):
         count = 1
-        for j in range(i + 1, len(a)):
+        for j in range(i+1,len(a)):
             if abs(a[j] - a[i]) <= 1:
                 count += 1
             else:
                 break
-        
         max_length = max(max_length,count)
-    
-    return max_length
-        
+
+    return max_length        
     
 
 
